@@ -31,13 +31,13 @@
             this.btnMostrar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvAutos = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnComprar = new System.Windows.Forms.Button();
             this.columnaNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnaModelo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnaKilometraje = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnaTransmision = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.columnaPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnComprar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAutos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,10 +54,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Monospac821 BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(23, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(346, 24);
+            this.label1.Size = new System.Drawing.Size(274, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Catálogo de Autos Súper Lujo";
             // 
@@ -73,29 +73,9 @@
             this.dgvAutos.Location = new System.Drawing.Point(27, 139);
             this.dgvAutos.Name = "dgvAutos";
             this.dgvAutos.RowTemplate.Height = 24;
-            this.dgvAutos.Size = new System.Drawing.Size(543, 150);
+            this.dgvAutos.Size = new System.Drawing.Size(722, 157);
             this.dgvAutos.TabIndex = 2;
             this.dgvAutos.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(601, 144);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(262, 17);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Selecciona el auto que deseas comprar.";
-            this.label2.Visible = false;
-            // 
-            // btnComprar
-            // 
-            this.btnComprar.Location = new System.Drawing.Point(604, 173);
-            this.btnComprar.Name = "btnComprar";
-            this.btnComprar.Size = new System.Drawing.Size(159, 54);
-            this.btnComprar.TabIndex = 4;
-            this.btnComprar.Text = "Comprar";
-            this.btnComprar.UseVisualStyleBackColor = true;
-            this.btnComprar.Visible = false;
             // 
             // columnaNombre
             // 
@@ -132,11 +112,32 @@
             this.columnaPrecio.Name = "columnaPrecio";
             this.columnaPrecio.ReadOnly = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(240, 318);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(262, 17);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Selecciona el auto que deseas comprar.";
+            this.label2.Visible = false;
+            // 
+            // btnComprar
+            // 
+            this.btnComprar.Location = new System.Drawing.Point(273, 355);
+            this.btnComprar.Name = "btnComprar";
+            this.btnComprar.Size = new System.Drawing.Size(159, 54);
+            this.btnComprar.TabIndex = 4;
+            this.btnComprar.Text = "Comprar";
+            this.btnComprar.UseVisualStyleBackColor = true;
+            this.btnComprar.Visible = false;
+            this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(948, 450);
+            this.ClientSize = new System.Drawing.Size(876, 455);
             this.Controls.Add(this.btnComprar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgvAutos);
