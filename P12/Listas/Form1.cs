@@ -44,9 +44,8 @@ namespace Listas
         private void btnComprar_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Auto comprado");
-            int referencia = dgvAutos.Rows.IndexOf(dgvAutos.SelectedRows);
+            int referencia = 0; //dgvAutos.Rows.IndexOf(dgvAutos.SelectedRows);
             miLista.RemoveAt(referencia);
-            dgvAutos.Rows.
             dgvAutos.Rows.RemoveAt(referencia);
         }
     }
