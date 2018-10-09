@@ -10,7 +10,7 @@ namespace Listas
     {
         List<Auto> miLista = new List<Auto>();
 
-
+         
         Auto deportivo1 = new Auto("TOYOTA Supra", "2014", 96000, "S", 849000);
         Auto deportivo2 = new Auto("MITSUBISHI Lancer Evo IX", "2017", 15000, "S", 779000);
         Auto atv1 = new Auto("LAN ROVER Discovery Sport", "2018", 1000, "A", 1256000);
