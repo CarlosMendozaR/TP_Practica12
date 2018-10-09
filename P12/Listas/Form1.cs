@@ -16,7 +16,6 @@ namespace Listas
             Auto deportivo2 = new Auto("MITSUBISHI Lancer Evo IX", "2017", 15000, "S", 779000);
             Auto atv1 = new Auto("LAN ROVER Discovery Sport", "2018", 1000, "A", 1256000);
             Auto atv2 = new Auto("BMW X6", "2017", 0, "S", 1576000);
-            Auto superlujo1 = new Auto("LAMBORGHINI Veneno", "2018", 0, "S", 61000000);
             Auto superlujo2 = new Auto("FERRARI F12", "2018", 0, "S", 3798660);
 
             miLista.Add(deportivo1);
